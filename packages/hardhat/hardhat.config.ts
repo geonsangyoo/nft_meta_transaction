@@ -31,8 +31,9 @@ export default defineConfig({
   solidity: {
     compilers: [
       {
-        version: "0.8.30",
+        version: "0.8.36",
         settings: {
+          evmVersion: "osaka",
           optimizer: {
             enabled: true,
             // https://docs.soliditylang.org/en/latest/using-the-compiler.html#optimizer-options
